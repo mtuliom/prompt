@@ -11,7 +11,7 @@ def generate_random_string(size=10000):
 
 def leak_memory():
     while True:
-        # Gera dados que não serão mais usados, mas continuam referenciados
+        # Gera dados que não serão mais usados, mas continuam referenciados 
         data = generate_random_string()
         memory_leak_simulation.append(data)
 
