@@ -17,7 +17,7 @@ def leak_memory():
 
         print(f"Objetos acumulados: {len(memory_leak_simulation)}")
 
-        # Aguarda para tornar o crescimento mais visível com ferramentas de profiling
+        # Aguarda para tornar o crescimento mais visível com ferramentas de profiling 
         time.sleep(0.5)
 
 if __name__ == "__main__":
