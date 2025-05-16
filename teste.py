@@ -2,7 +2,7 @@ import time
 import random
 import string
 
-# Lista global que acumula dados desnecessariamente 10
+# Lista global que acumula dados desnecessariamente 11
 memory_leak_simulation = []
 
 def generate_random_string(size=10000):
