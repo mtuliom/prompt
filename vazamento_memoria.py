@@ -4,7 +4,7 @@ import time
 
 class ObjetoPesado:
     def __init__(self):
-        # Aloca uma grande quantidade de memória (simula um objeto pesado) 4
+        # Aloca uma grande quantidade de memória (simula um objeto pesado) 5
         self.dados = [0] * 10**6  # ~8 MB por instância
 
 # Lista global que nunca é liberada
